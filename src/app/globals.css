@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  @apply w-full lg:w-[1366px] h-[100vh] px-[60px] mx-auto flex flex-col justify-between;
+  @apply w-full lg:w-[1366px] h-full px-[60px] mx-auto flex flex-col justify-between;
 }
 
 .light {
