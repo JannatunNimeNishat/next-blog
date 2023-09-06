@@ -1,0 +1,14 @@
+
+.img_animation{
+    object-fit: contain;
+    animation: move 2s infinite ease alternate;
+}
+
+@keyframes move {
+    from{
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateX(0px) scale(1.03);
+    }
+}
